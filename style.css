@@ -1,0 +1,116 @@
+body {
+   font-family: 'Poppins', sans-serif; 
+   margin: 0;
+   background-color: rgb(247, 249, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+    color: white;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+}
+
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.section2-container {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.half-width {
+    width: 45%;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.onethird-width {
+  width: 33.33%;
+  margin: 15px;  
+  padding: 15px;
+  padding-left:20px;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 10px;
+}
+
+
+
+.stayfocused {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.mission {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.year {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+}
+
+
+.darkbrown {
+    color: rgb(124, 21, 21);
+}
+
+
+.link-button {
+    text-decoration: none;
+    padding: 15px;
+    background-image: linear-gradient(tomato, brown);
+    border-radius: 10px;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#focus-and-mission {
+    line-height: 0.8;
+    border-image: linear-gradient(rgb(17, 17, 63), rgb(124, 21, 21));
+    border-left: 5px solid;
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
+.centered-heading {
+    text-align: center; 
+    margin: 0px auto;
+    font-size: 35px;
+}
+
+.leftaligned-heading {
+    font-size: 35px;
+    line-height:0.8;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team-container .half-width {
+    box-shadow: 1px 1px 5px gray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 249, 255);
+}
+
